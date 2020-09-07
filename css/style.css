@@ -1,9 +1,9 @@
 * {
-  background-color:mediumaquamarine;
+  background-color:yellowgreen;
 }
 
 body {
-  background-color:mediumaquamarine;
+  background-color:yellowgreen;
 }
 a:link {
   color: lightcyan;
@@ -11,12 +11,12 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: lavender;
+  color: paleturquoise;
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: lavender;
+  color: lightcoral;
   background-color: transparent;
   text-decoration: underline;
 }
