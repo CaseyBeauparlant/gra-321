@@ -1,7 +1,27 @@
 * {
-  background-color:lightseagreen;
+  background-color:mediumaquamarine;
 }
 
 body {
-  background-color:lightseagreen;
+  background-color:mediumaquamarine;
+}
+a:link {
+  color: lightcyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: lavender;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: lemonchiffon;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: lightgreen;
+  background-color: transparent;
+  text-decoration: underline;
 }
