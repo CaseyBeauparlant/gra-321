@@ -5,3 +5,8 @@ background-color:skyblue;
 body {
   background-color:skyblue;
 }
+div {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
