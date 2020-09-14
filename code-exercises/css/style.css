@@ -6,7 +6,13 @@ body {
   background-color:skyblue;
 }
 div {
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 10px;
+  padding: 10px 10px 10px 10px;
+}
+button {
+  background-color: lightseagreen;
+  border: solid blue;
+  color: white;
+  font-family:Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 2px 5px 2px 5px;
 }
