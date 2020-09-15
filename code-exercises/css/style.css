@@ -1,10 +1,10 @@
 .container {
-  background-color:skyblue;
-  background-image: (https://caseybeauparlant.github.io/gra-321/code-exercises/img/daniel-sessler-2QvXg7Ur8HY-unsplash.jpg);
-  backgorund-size; cover;
-  height:700px;
+  background-image:
+  url(https://caseybeauparlant.github.io/gra-321/code-exercises/img/daniel-sessler-2QvXg7Ur8HY-unsplash.jpg);
+  background-size: cover;
+  height:800px;
   margin: 0 auto;
-  width:50%;
+  width:70%;
 }
 
 .padding-hover:hover {
@@ -43,9 +43,10 @@ button {
 }
 
 h2 {
-  color: lightseagreen;
-  font-size:52px;
+  background-color:transparent;
+  color: darkgoldenrod;
+  font-size:100px;
   position:relative;
-  text-align:center;
-  top:200px;
+  text-align: right;
+  top:470px;
 }
