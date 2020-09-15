@@ -1,10 +1,12 @@
-* {
-background-color:skyblue;
+.padding-hover:hover {
+  background-color: peru;
+  border: solid dodgerblue;
+  color: pink;
+  text-decoration:underline;
 }
 
-body {
-  background-color:skyblue;
-  padding: 2.5%;
+* {
+background-color:skyblue;
 }
 
 a{
@@ -17,6 +19,11 @@ a{
   text-decoration: none;
 }
 
+body {
+  background-color:skyblue;
+  padding: 2.5%;
+}
+
 button {
   background-color: lightseagreen;
   border: solid steelblue;
@@ -24,15 +31,4 @@ button {
   font-family: Arial, sans-serif;
   text-transform: uppercase;
   padding: 16px 40px 16px 40px;
-}
-
-.padding-hover:hover {
-  background-color: peru;
-  border: solid dodgerblue;
-  color: pink;
-  text-decoration:underline;
-}
-
-.visited-gray:visited {
-  color: LightGray;
 }
