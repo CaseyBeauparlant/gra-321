@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .container {
   background-image:
   url(https://caseybeauparlant.github.io/gra-321/code-exercises/img/daniel-sessler-2QvXg7Ur8HY-unsplash.jpg);
   background-size: cover;
   height: 800px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.mockup {
+  background-image:
+  url(https://caseybeauparlant.github.io/gra-321/code-exercises/img/mockup);
+  background-size: cover;
+  height: 1863px;
   margin: 0 auto;
   width: 70%;
 }
@@ -15,14 +26,14 @@
 }
 
 * {
+font-family: 'Lato', sans-serif;
 background-color:skyblue;
 }
 
 a{
   background-color:transparent;
-  color: teal;
+  color: white;
   display: inline;
-  font-family: Arial, sans-serif;
   padding: 2em;
   text-decoration: none;
   width: 20%;
@@ -37,7 +48,6 @@ button {
   background-color: lightseagreen;
   border: solid steelblue;
   color: white;
-  font-family: Arial, sans-serif;
   padding: 16px 40px 16px 40px;
   text-transform: uppercase;
 }
