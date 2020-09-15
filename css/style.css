@@ -1,3 +1,27 @@
+a:link {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: transparent;
+  color: mediumvioletred;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: transparent;
+  color: lightcoral;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: transparent;
+  color: lightgreen;
+  text-decoration: underline;
+}
+
 * {
   background-color: yellowgreen;
 }
@@ -5,24 +29,4 @@
 body {
   background-color: yellowgreen;
   padding: 2.5%;
-}
-a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: mediumvioletred;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: lightcoral;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: lightgreen;
-  background-color: transparent;
-  text-decoration: underline;
 }

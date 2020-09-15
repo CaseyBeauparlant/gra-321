@@ -1,3 +1,12 @@
+.container {
+  background-color:skyblue;
+  background-image: (https://caseybeauparlant.github.io/gra-321/code-exercises/img/daniel-sessler-2QvXg7Ur8HY-unsplash.jpg);
+  backgorund-size; cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+}
+
 .padding-hover:hover {
   background-color: peru;
   border: solid dodgerblue;
@@ -15,8 +24,8 @@ a{
   display: inline;
   font-family: Arial, sans-serif;
   padding: 2em;
-  width: 20%;
   text-decoration: none;
+  width: 20%;
 }
 
 body {
@@ -29,6 +38,14 @@ button {
   border: solid steelblue;
   color: white;
   font-family: Arial, sans-serif;
-  text-transform: uppercase;
   padding: 16px 40px 16px 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: lightseagreen;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+  top:200px;
 }
