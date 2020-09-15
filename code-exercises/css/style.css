@@ -26,15 +26,13 @@ button {
   padding: 16px 40px 16px 40px;
 }
 
-.visited-grey:visited {
-  background-color: grey;
-  border: solid darkgrey;
-  color: lightgrey;
-}
-
 .padding-hover:hover {
   background-color: peru;
   border: solid dodgerblue;
   color: pink;
   text-decoration:underline;
+}
+
+.visited-gray:visited {
+  color: LightGray;
 }
