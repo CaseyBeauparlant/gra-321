@@ -1,9 +1,10 @@
 * {
-  background-color:yellowgreen;
+  background-color: yellowgreen;
 }
 
 body {
-  background-color:yellowgreen;
+  background-color: yellowgreen;
+  padding: 2.5%;
 }
 a:link {
   color: white;

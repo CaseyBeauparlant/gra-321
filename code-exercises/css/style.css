@@ -4,15 +4,37 @@ background-color:skyblue;
 
 body {
   background-color:skyblue;
+  padding: 2.5%;
 }
-div {
-  padding: 10px 10px 10px 10px;
+
+a{
+  background-color:transparent;
+  color: teal;
+  display: inline;
+  font-family: Arial, sans-serif;
+  padding: 2em;
+  width: 20%;
+  text-decoration: none;
 }
+
 button {
   background-color: lightseagreen;
-  border: solid blue;
+  border: solid steelblue;
   color: white;
-  font-family:Arial, sans-serif;
+  font-family: Arial, sans-serif;
   text-transform: uppercase;
-  padding: 2px 5px 2px 5px;
+  padding: 16px 40px 16px 40px;
+}
+
+.visited-grey:visited {
+  background-color: grey;
+  border: solid darkgrey;
+  color: lightgrey;
+}
+
+.padding-hover:hover {
+  background-color: peru;
+  border: solid dodgerblue;
+  color: pink;
+  text-decoration:underline;
 }
