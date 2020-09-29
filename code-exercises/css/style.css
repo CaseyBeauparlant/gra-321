@@ -9,24 +9,8 @@
   width: 70%;
 }
 
-.flexbox-container {
-  display= flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.flexbox-item {
-  background-size: cover;
-  margin: 0 auto;
-}
-
-.flexbox-item-1 {
-  width: 70%;
-}
-
-
-.flexbox-item-2 {
-  width: 20%;
+.flexbox {
+  display: flex;
 }
 
 .padding-hover:hover {
