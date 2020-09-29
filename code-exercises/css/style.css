@@ -9,13 +9,24 @@
   width: 70%;
 }
 
-.mockup {
-  background-image:
-  url(https://caseybeauparlant.github.io/gra-321/code-exercises/img/mockup.png);
+.flexbox-container {
+  display= flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flexbox-item {
   background-size: cover;
-  height: 1863px;
-  margin-right: 0 auto;
-  width: 100%;
+  margin: 0 auto;
+}
+
+.flexbox-item-1 {
+  width: 70%;
+}
+
+
+.flexbox-item-2 {
+  width: 20%;
 }
 
 .padding-hover:hover {
