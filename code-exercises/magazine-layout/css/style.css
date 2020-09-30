@@ -1,32 +1,97 @@
-a:link {
-  background-color: transparent;
-  color: white;
-  text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-a:visited {
-  background-color: transparent;
-  color: mediumvioletred;
-  text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
-a:hover {
-  background-color: transparent;
-  color: lightcoral;
-  text-decoration: underline;
-}
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
-a:active {
-  background-color: transparent;
-  color: lightgreen;
-  text-decoration: underline;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
-  background-color: yellowgreen;
+font-family: 'Lato', sans-serif;
+background-color:;
+}
+
+a{
+  background-color:transparent;
+  color: white;
+  display: inline;
+  padding: 2em;
+  text-decoration: none;
+  width: 20%;
 }
 
 body {
-  background-color: yellowgreen;
+  background-color:skyblue;
   padding: 2.5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1440px;
+  grid-auto-rows: 20px;
+}
+
+.grid-item-1{
+  height: 1863px;
+  width: 1440px;
+  border: 5px solid green;
+  background-color: white;
+}
+
+.grid-item-2{
+  border: 5px solid green;
+  background-color: pink;
+}
+
+.grid-item-3{
+  border: 5px solid green;
+  background-color: salmon;
+}
+
+.grid-item-4{
+  border: 5px solid green;
+  background-color: lightskyblue;
+}
+
+.grid-item-5{
+  border: 5px solid green;
+  background-color: purple;
+}
+
+.grid-item-6{
+  border: 5px solid green;
+  background-color: slateblue;
+}
+
+H2 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #2c2b2b;
+  font-size: 53px;
+  font-weight: 1000;
+  line-height: 50;
+}
+
+h4 {
+  font-family: 'EB Garamond', serif;
+  font-size: 26px;
+  line-height: 30;
+  font-weight: 400;
+  color: #2c2b2b;
+}
+
+p {
+  font-family: 'roboto', serif;
+  font-size: 16.75px;
+  line-height: 25.25;
+  color: #2c2b2b;
+}
+
+@media screen and (max-width: 1000px) {
+  body, * {
+    background-color: palevioletred;
+}
+
+@media screen and (max-width: 500px) {
+  body, * {
+    background-color: goldenrod;
 }

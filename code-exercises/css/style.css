@@ -9,28 +9,6 @@
   width: 70%;
 }
 
-.flexbox-container {
-  display: flex;
-  height: 2000px
-}
-
-.flexbox-item-1 {
-  background-image:
-    url(https://caseybeauparlant.github.io/gra-321/code-exercises/img/mockup.png);
-    background-size: cover;
-    width: 70%;
-    height: 1000px;
-}
-
-.flexbox-item-2 {
-  background-image:
-  url(https://caseybeauparlant.github.io/gra-321/code-exercises/img/mobile.png);
-  background-size: cover;
-  width: 20%;
-  height: 50px;
-
-}
-
 .padding-hover:hover {
   background-color: peru;
   border: solid dodgerblue;
