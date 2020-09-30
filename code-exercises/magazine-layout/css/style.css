@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 * {
-font-family: 'Lato', sans-serif;
-background-color:;
+  font-family: "Lato", sans-serif;
 }
 
-a{
-  background-color:transparent;
-  color: white;
+a {
+  background-color: transparent;
+  color: skyblue;
   display: inline;
   padding: 2em;
   text-decoration: none;
@@ -21,67 +20,57 @@ a{
 }
 
 body {
-  background-color:;
   padding: 2.5%;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-rows: 1440px;
-  grid-auto-rows: 20px;
-}
-
-.grid-item-1{
+.grid-item-1 {
   height: 1863px;
   width: 1440px;
-  border: 5px solid green;
   background-color: white;
+  border: 1px solid grey;
 }
 
-.grid-item-2{
-  border: 5px solid green;
-  background-color: pink;
+.grid-item-2 {
+  padding-top: 75px;
+  padding-left: 168px;
 }
 
-.grid-item-3{
-  border: 5px solid green;
-  background-color: salmon;
+.grid-item-3 {
+  width: 693px;
+  height: 62px;
+  position: relative;
+  top: -1270px;
 }
 
-.grid-item-4{
-  border: 5px solid green;
-  background-color: lightskyblue;
+.grid-item-4 {
 }
 
-.grid-item-5{
-  border: 5px solid green;
-  background-color: purple;
+.grid-item-5 {
+  font-family: "roboto", serif;
+  font-size: 16.75px;
+  line-height: 25.25;
+  color: #2c2b2b;
 }
 
-.grid-item-6{
-  border: 5px solid green;
-  background-color: slateblue;
+.grid-item-6 {
+  font-family: "roboto", serif;
+  font-size: 16.75px;
+  line-height: 25.25;
+  color: #2c2b2b;
 }
 
-H2 {
-  font-family: 'Nunito Sans', sans-serif;
+h2 {
+  font-family: "Nunito Sans", sans-serif;
   color: #2c2b2b;
   font-size: 53px;
   font-weight: 1000;
-  line-height: 50;
+  line-height: 50px;
 }
 
 h4 {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", sans-serif;
   font-size: 26px;
-  line-height: 30;
+  line-height: 30px;
   font-weight: 400;
-  color: #2c2b2b;
-}
-
-p {
-  font-family: 'roboto', serif;
-  font-size: 16.75px;
-  line-height: 25.25;
   color: #2c2b2b;
 }
