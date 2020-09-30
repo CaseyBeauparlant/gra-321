@@ -13,7 +13,7 @@
 a {
   background-color: transparent;
   color: skyblue;
-  display: inline;
+  display: inline-block;
   padding: 2em;
   text-decoration: none;
   width: 20%;
@@ -23,40 +23,87 @@ body {
   padding: 2.5%;
 }
 
-.grid-item-1 {
+.flexbox-container-1 {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: left;
   height: 1863px;
   width: 1440px;
   background-color: white;
   border: 1px solid grey;
 }
 
-.grid-item-2 {
+.flexbox-container-2 {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: left;
+  height: 336px;
+  width: 800px;
+}
+
+.flexbox-container-3 {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.flexbox-container-4 {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.image {
   padding-top: 75px;
   padding-left: 168px;
 }
 
-.grid-item-3 {
-  width: 693px;
-  height: 62px;
+.bmd-text {
   position: relative;
-  top: -1270px;
-}
-
-.grid-item-4 {
-}
-
-.grid-item-5 {
-  font-family: "roboto", serif;
-  font-size: 16.75px;
-  line-height: 25.25;
+  padding-left: 168px;
+  padding-top: 25px;
   color: #2c2b2b;
 }
 
-.grid-item-6 {
-  font-family: "roboto", serif;
-  font-size: 16.75px;
-  line-height: 25.25;
+.serif-text {
+  position: relative;
+  padding-left: 168px;
+  padding-top: 0px;
   color: #2c2b2b;
+}
+
+.body-copy-left {
+  position: relative;
+  padding-left: 168px;
+  padding-top: 20px;
+  font-family: "roboto", sans-serif;
+  font-size: 16.75px;
+  line-height: 25.25px;
+  color: #2c2b2b;
+}
+
+.body-copy-right {
+  position: absolute;
+  padding-left: 23px;
+  padding-top: 20px;
+  font-family: "roboto", sans-serif;
+  font-size: 16.75px;
+  line-height: 25.25px;
+  color: #2c2b2b;
+}
+
+.page-footer {
+  align: bottom;
+  padding-left: 262px;
+  padding-top: 437px;
 }
 
 h2 {
