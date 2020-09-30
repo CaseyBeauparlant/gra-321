@@ -21,7 +21,7 @@ a{
 }
 
 body {
-  background-color:skyblue;
+  background-color:;
   padding: 2.5%;
 }
 
@@ -84,14 +84,4 @@ p {
   font-size: 16.75px;
   line-height: 25.25;
   color: #2c2b2b;
-}
-
-@media screen and (max-width: 1000px) {
-  body, * {
-    background-color: palevioletred;
-}
-
-@media screen and (max-width: 500px) {
-  body, * {
-    background-color: goldenrod;
 }
