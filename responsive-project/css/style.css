@@ -1,35 +1,18 @@
 body {
 background-color:#D2D1C9;
 }
-
-.one {
-  background-color: #D3E0C3;
-}
-
-.two {
-  background-color: #D3E0C3;
-}
-
-.three {
-  background-color: #D3E0C3;
-}
-
-.four {
-  background-color: #D3E0C3;
-}
-
 /* New Slider CSS Begin */
 
 .carousel {
   position: relative;
-  margin-top: 0px;
+  margin-top: 26px;
 }
 
 .carousel-inner {
   position: relative;
   overflow: hidden;
   width: 100%;
-height:320px;
+height:500px;
 }
 
 .carousel-open:checked + .carousel-item {
@@ -37,28 +20,27 @@ height:320px;
   opacity: 100;
 }
 
-/* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
-
 .image-1 { 
-background-image: url(https://caseybeauparlant.github.io/gra-321/responsive-project/img/banner-image-1-hello-sunshine.jpg);
-background-size: cover; 
-background-repeat: no-repeat;
-background-position: center center;
-}
-
-.image-2 { 
-background-image: url(https://caseybeauparlant.github.io/gra-321/responsive-project/img/banner-image-2-coffee-cup.jpg);
-background-size: cover; 
-background-repeat: no-repeat;
-background-position: center center;
-}
-
-.image-3 { 
-background-image: url(https://caseybeauparlant.github.io/gra-321/responsive-project/img/banner-image-3-bagels.jpg);
-background-size: cover; 
-background-repeat: no-repeat;
-background-position: center center;
-}
+  background-image: url(https://caseybeauparlant.github.io/gra-321/responsive-project/img/banner-image-1-hello-sunshine.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+  
+  .image-2 { 
+  background-image: url(https://caseybeauparlant.github.io/gra-321/responsive-project/img/banner-image-2-coffee-cup.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+  
+  .image-3 { 
+  background-image: url(https://caseybeauparlant.github.io/gra-321/responsive-project/img/banner-image-3-bagels.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+  
 
 .carousel-item {
   position: absolute;
@@ -176,17 +158,12 @@ bottom:2%;
   margin-bottom: 2rem;
 }
 
-body { 
-  margin: 0; 
-  padding: 0; 
-}
-
 .nav-bar { 
   font-family: 'Vidaloka', serif;
   width: 100%; 
   background-color:transparent;
   text-align: center;
-  padding: 5px auto;
+  padding: 50px auto;
 }
 
 .nav-bar a  { 
@@ -229,11 +206,12 @@ header {
     margin: 0 auto;
     position: relative;
     justify-content: space-between;
-    padding: 0px 0px 0px;  
   }
   
   #logo { 
-  height:100px;
+  height:200px;
+  margin-top: -30px;
+  margin-left: 10px;
   }
   
   #toggle { 
@@ -241,17 +219,21 @@ header {
   }
   
   label { 
-  font-size: 40px; 
-  line-height:100px;
+  font-size: 75px;
+  font-weight: 1; 
+  color: #4F4C2A;
+  line-height: 100px;
    cursor: pointer;
+   margin-top: 25px;
   }
   
   ul.menu-items { 
   padding: 20px 0 40px 0; 
-  margin: 20px;
+  margin: 35px;
   list-style-type: none;
   text-align: left; 
-    
+  font-family: 'Open Sans', serif;
+  font-size: 25px;
   }
   
   ul.menu-items a { 
@@ -260,6 +242,7 @@ header {
     text-align: left;
     color: #4F4C2A;
     display:block;
+    line-height: 60px;
   }
   
   #toggle:checked ~ ul.menu-items { 
