@@ -1,78 +1,112 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GRA 321 Responsive Project</title>
+    <title>Charlie's Cafe</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Hello World Exercise">
-    <meta name="keywords" content="School, Slack, Presentations">
-    <meta name="author" content="Casey Beauparlant">
-    <link href="./css/normalize.css" type="text/css" rel="stylesheet">
-    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <meta name="description" content="your content here">
+    <meta name="keywords" content="your content here">
+    <meta name="author" content="your name">
+    <!--favicons should be saved as squares, at 32 x 32 px-->
+    <link rel="icon" type="image/png" href="../responsive-project/img/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
   </head>
-
+  
   <body>
-    <header>
-      <a href="#menu">Menu</a>
-      <a href="#locations">Locations</a>
-      <a href="#about">About</a>
-      <a href="#follow-us">Follow Us</a>
+    
+    <header> 
+        <a href="#menu">Menu</a>
+        <a href="#locations">Locations</a>
+        <a href="#about">About</a>
+        <a href="#follow-us">Follow Us</a>
+            <div class="header-nav">
+            <div class="nav-bar">
+              
+                <img id="logo" src="../responsive-project/img/charlies-cafe-logo.png" alt="Charlie's logo">
+             
+              
+                <label for="toggle">&#9776;</label> 
+              
+            </div>
+                <input type="checkbox" id="toggle">
+                <ul class="menu-items"> 
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a> </li>
+                <li> <a href="#">About</a></li>
+                </ul>
+          </div>
     </header>
 
-    <section id="#menu">
-      <h1>Menu</h1>
-      <p> Green Blue Red Yellow Purple Green Blue Red Yellow Purple
-        Green Blue Red Yellow Purple 
+    <!-- New Slider HTML Begin --> 
+  <div class="carousel">
+    <div class="carousel-inner">
+        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        <div class="carousel-item image-1">
+        </div>
+        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item image-2">
+        </div>
+        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item image-3">
+        </div>
+        <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+        <label for="carousel-2" class="carousel-control next control-1">›</label>
+        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+        <label for="carousel-3" class="carousel-control next control-2">›</label>
+        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+        <label for="carousel-1" class="carousel-control next control-3">›</label>
+        <ol class="carousel-indicators">
+            <li>
+                <label for="carousel-1" class="carousel-bullet">•</label>
+            </li>
+            <li>
+                <label for="carousel-2" class="carousel-bullet">•</label>
+            </li>
+            <li>
+                <label for="carousel-3" class="carousel-bullet">•</label>
+            </li>
+        </ol>
+    </div>
+</div>
+  <!-- New Slider HTML End -->
 
+    <div class="columns">
+        <div class="column-block one">Column 1</div>
+        <div class="column-block one">Column 2</div>
+        <div class="column-block one">Column 3</div>
+        <div class="column-block one">Column 4</div>
+    </div>
+      
+      <section id="menu">
+        <h1>Menu</h1>
+        The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.
+        The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.
+        The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.
+        The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.
+      </section>
+      
+      <section id="locations">
+        <h1>Locations</h1>
+       <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+         <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+         <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+         <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+      </section>
+      
+      <section id="about">
+        <h1>About</h1>
+       <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+         <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+         <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+         <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+      </section>
 
-
-
-
-
-
-
-
-        Green Blue Red Yellow Purple
-
-
-
-
-
-        Green Blue Red Yellow Purple<br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        Green Blue Red Yellow Purple
-      </p>
-    </section>
-
-    <section id="#locations">
-      <h1>Locations</h1>
-    </section>
-
-    <section id="#about">
-      <h1>About</h1>
-    </section>
-
-    <section id="#follow-us">
-      <h1>Follow Us</h1>
-      Green Blue Red Yellow Purple
-      Green Blue Red Yellow Purple
-      Green Blue Red Yellow Purple
-      Green Blue Red Yellow PurpleGreen Blue Red Yellow PurpleGreen Blue Red Yellow Purple
-
-
-
-
-
-
-
-      Green Blue Red Yellow PurpleGreen Blue Red Yellow PurpleGreen Blue Red Yellow Purple
-
-      Green Blue Red Yellow Purple
-
-
-
-    </section>
-
-  </body>
+       <section id="follow-us">
+        <h1>Follow Us</h1>
+       <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+         <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+         <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+         <p> The Chipped Cup is a victorian psychedelic coffee shop with a touch of grandma’s attic, wabi-sabi, and political sass. Our cozy community living room is a safe place to be heard, to hunker down and write your next screenplay or end-of-semester thesis, and to connect with friends and neighbors.</p>
+      </section>
 </html>
