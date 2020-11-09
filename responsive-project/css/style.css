@@ -47,14 +47,14 @@ background-position: center center;
 }
 
 .image-2 { 
-background-image: url(https://lindseymariegomez.github.io/fall-2020/img/fall-3.jpg);
+background-image: url(https://caseybeauparlant.github.io/gra-321/responsive-project/img/banner-image-2-coffee-cup.jpg);
 background-size: cover; 
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .image-3 { 
-background-image: url(https://lindseymariegomez.github.io/fall-2020/img/fall-5.jpg);
+background-image: url(https://caseybeauparlant.github.io/gra-321/responsive-project/img/banner-image-3-bagels.jpg);
 background-size: cover; 
 background-repeat: no-repeat;
 background-position: center center;
@@ -184,7 +184,7 @@ body {
 .nav-bar { 
   font-family: 'Vidaloka', serif;
   width: 100%; 
-  background-color :#F6F6F6;
+  background-color:transparent;
   text-align: center;
   padding: 5px auto;
 }
@@ -210,3 +210,59 @@ body {
   }
 }
 
+
+header {
+  background-color: #F6F6F6;
+  width: 100%; 
+  } 
+  
+  .header-nav { 
+    background-color: #F6F6F6;
+    width:100%;
+    margin: 0 auto; 
+  } 
+  
+  .nav-bar { 
+    display:flex;
+    align-items: center; 
+    width: 100%; 
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+    padding: 0px 0px 0px;  
+  }
+  
+  #logo { 
+  height:100px;
+  }
+  
+  #toggle { 
+  display:none; 
+  }
+  
+  label { 
+  font-size: 40px; 
+  line-height:100px;
+   cursor: pointer;
+  }
+  
+  ul.menu-items { 
+  padding: 20px 0 40px 0; 
+  margin: 20px;
+  list-style-type: none;
+  text-align: left; 
+    
+  }
+  
+  ul.menu-items a { 
+    text-decoration:none; 
+    line-height:40px;
+    text-align: left;
+    color: #4F4C2A;
+    display:block;
+  }
+  
+  #toggle:checked ~ ul.menu-items { 
+    display:none;
+  }
+  
