@@ -115,9 +115,18 @@
 .menu-image-1 {
   background-image: url(https://caseybeauparlant.github.io/gra-321/responsive-project/img/coffee.jpg);
   background-size: cover;
-  height: 800px;
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
+  height: 450px;
+}
+
+.drinks-title {
+display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 #carousel-1:checked
@@ -226,7 +235,6 @@ header {
 
 label {
   font-size: 75px;
-  font-weight: 1;
   color: #4f4c2a;
   line-height: 100px;
   cursor: pointer;
@@ -262,18 +270,40 @@ section {
 }
 
 h1 { 
-  color:white;
-  font-size:2rem;
-}
-
-section h1, p, ul, li { 
   color:#4F4C2A;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.iced-drinks, .hot-drinks, .intro { 
+h2 {
+  color: #4F4C2A;
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  color: #4F4C2A;
+  font-size: 38px;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+p { 
+  color:#4F4C2A;
+  font-size: 16px;
+  font-family: "Open Sans", serif;
+}
+
+li { 
+  color:#4F4C2A;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.standard-drinks, .hot-drinks, .intro { 
   width:90%; 
-  margin: 0 auto; 
-  color: 
+  margin: 0 auto;  
 }
 
  .menu-item-row { 
