@@ -313,12 +313,12 @@ img {
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
-.carousel-inner > .item > img,
+/* .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 .img-rounded {
   border-radius: 6px;
 }
@@ -5431,7 +5431,7 @@ button.close {
   border-right-width: 0;
   border-left-color: #fff;
 }
-.carousel {
+/* .carousel {
   position: relative;
 }
 .carousel-inner {
@@ -5654,7 +5654,7 @@ button.close {
   .carousel-indicators {
     bottom: 20px;
   }
-}
+} */
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
