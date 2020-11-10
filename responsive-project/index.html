@@ -1,16 +1,601 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GRA 321 Responsive Project</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Hello World Exercise">
-    <meta name="keywords" content="School, Slack, Presentations">
-    <meta name="author" content="Casey Beauparlant">
-    <link href="./css/normalize.css" type="text/css" rel="stylesheet">
-    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+    </style>
+    <title>Charlie's Cafe</title>
+
+    <!-- TODO: replace 'your content here' or delete -->
+    <meta name="description" content="your content here" />
+    <meta name="keywords" content="your content here" />
+    <meta name="author" content="your name" />
+
+    <link rel="icon" type="image/png" href="../responsive-project/img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- normalize.css unlinked because of carousel clash -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
   </head>
 
   <body>
-  <h1>Placeholder Text</h1>
+    <header>
+      <div class="header-nav">
+        <div class="nav-bar">
+          <img
+            id="logo"
+            src="../responsive-project/img/charlies-cafe-logo.png"
+            alt="Charlie's Cafe logo"
+          />
+
+          <label for="toggle">&#9776;</label>
+        </div>
+        <input type="checkbox" id="toggle" />
+        <ul class="menu-items">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#locations">Locations</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#follow-us">Follow Us</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="carousel">
+      <div class="carousel-inner">
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-1"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+          checked="checked"
+        />
+        <div class="carousel-item image-1"></div>
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-2"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+        />
+        <div class="carousel-item image-2"></div>
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-3"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+        />
+        <div class="carousel-item image-3"></div>
+        <label for="carousel-3" class="carousel-control prev control-1"
+          >‹</label
+        >
+        <label for="carousel-2" class="carousel-control next control-1"
+          >›</label
+        >
+        <label for="carousel-1" class="carousel-control prev control-2"
+          >‹</label
+        >
+        <label for="carousel-3" class="carousel-control next control-2"
+          >›</label
+        >
+        <label for="carousel-2" class="carousel-control prev control-3"
+          >‹</label
+        >
+        <label for="carousel-1" class="carousel-control next control-3"
+          >›</label
+        >
+        <ol class="carousel-indicators">
+          <li>
+            <label for="carousel-1" class="carousel-bullet">•</label>
+          </li>
+          <li>
+            <label for="carousel-2" class="carousel-bullet">•</label>
+          </li>
+          <li>
+            <label for="carousel-3" class="carousel-bullet">•</label>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <section class="menu-section" id="menu">
+      <h1>Menu</h1>
+      <div class="menu-grid-container">
+        <div class="drinks-image-container">
+          <img
+            class="menu-image"
+            src="../responsive-project/img/drinks-menu-image.png"
+            alt="TODO:"
+          />
+        </div>
+        <div class="drinks-menu-image-text">Drinks</div>
+
+        <div class="drinks-standard-table-container">
+          <table>
+            <tbody>
+              <tr class="table-row-header">
+                <td c>Standard Drinks</td>
+                <td>S</td>
+                <td>M</td>
+                <td>L</td>
+              </tr>
+              <tr>
+                <td>Espresso</td>
+                <td>1.75</td>
+                <td>2.25</td>
+                <td>3.00</td>
+              </tr>
+              <tr>
+                <td>Espresso Macchiato</td>
+                <td>2.00</td>
+                <td>2.50</td>
+                <td>3.25</td>
+              </tr>
+              <tr>
+                <td>Americano</td>
+                <td>2.00</td>
+                <td>2.50</td>
+                <td>3.75</td>
+              </tr>
+              <tr>
+                <td>Cappuccino</td>
+                <td>2.75</td>
+                <td>3.50</td>
+                <td>4.75</td>
+              </tr>
+              <tr>
+                <td>Caffe Latte</td>
+                <td>3.00</td>
+                <td>3.75</td>
+                <td>4.50</td>
+              </tr>
+              <tr>
+                <td>Caffe Mocha</td>
+                <td>3.25</td>
+                <td>4.00</td>
+                <td>4.75</td>
+              </tr>
+              <tr>
+                <td>Drip Coffee</td>
+                <td>1.85</td>
+                <td>2.25</td>
+                <td>3.50</td>
+              </tr>
+              <tr>
+                <td>Hot Chocolate</td>
+                <td>2.50</td>
+                <td>3.25</td>
+                <td>3.50</td>
+              </tr>
+              <tr>
+                <td>Chai</td>
+                <td>3.00</td>
+                <td>3.75</td>
+                <td>4.25</td>
+              </tr>
+              <tr>
+                <td>Organic Tea</td>
+                <td>2.25</td>
+                <td>2.25</td>
+                <td>2.25</td>
+              </tr>
+              <tr>
+                <td>Lemonade</td>
+                <td>2.00</td>
+                <td>2.50</td>
+                <td>3.50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="drinks-specialty-table-container">
+          <table>
+            <tbody>
+              <tr class="table-row-header">
+                <td>Specialty Drinks</td>
+                <td>S</td>
+                <td>M</td>
+                <td>L</td>
+              </tr>
+              <tr>
+                <td>Thai Iced Cappuccino</td>
+                <td>3.75</td>
+                <td>4.25</td>
+                <td>5.00</td>
+              </tr>
+              <tr>
+                <td>Joyous Almond Latte</td>
+                <td>4.00</td>
+                <td>4.75</td>
+                <td>5.25</td>
+              </tr>
+              <tr>
+                <td>Banana Nut Mocha</td>
+                <td>3.50</td>
+                <td>3.75</td>
+                <td>4.50</td>
+              </tr>
+              <tr>
+                <td>Chocolate Chip Mocha</td>
+                <td>3.50</td>
+                <td>3.75</td>
+                <td>4.50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="sandwiches-image-container">
+          <img
+            class="menu-image"
+            src="../responsive-project/img/sandwiches-menu-image.png"
+            alt="TODO:"
+          />
+        </div>
+        <div class="sandwiches-menu-image-text">Sandwiches</div>
+        <div class="sandwiches-standard-container">
+          <table>
+            <tbody>
+              <tr class="table-row-header">
+                <td colspan="2">Sandwiches and Wraps</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Ham and Cheese</td>
+                <td>6.50</td>
+              </tr>
+              <tr>
+                <td>Spinach and Swiss</td>
+                <td>6.00</td>
+              </tr>
+              <tr>
+                <td>Turkey and Cheese</td>
+                <td>6.50</td>
+              </tr>
+              <tr>
+                <td>Swiss and Chicken</td>
+                <td>7.00</td>
+              </tr>
+              <tr>
+                <td>Three-Cheese Ham</td>
+                <td>6.75</td>
+              </tr>
+              <tr>
+                <td>Spinach Wrap</td>
+                <td>4.50</td>
+              </tr>
+              <tr>
+                <td>Pesto Wrap</td>
+                <td>4.25</td>
+              </tr>
+              <tr>
+                <td>Cheddar Wrap</td>
+                <td>5.50</td>
+              </tr>
+              <tr>
+                <td>Tomato Chicken Wrap</td>
+                <td>5.25</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="sandwiches-panini-container">
+          <table>
+            <tbody>
+              <tr class="table-row-header">
+                <td colspan="2">Panini Grilled Sandwiches</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Italiano</td>
+                <td>6.75</td>
+              </tr>
+              <tr>
+                <td>Seville</td>
+                <td>6.50</td>
+              </tr>
+              <tr>
+                <td>Milano</td>
+                <td>6.25</td>
+              </tr>
+              <tr>
+                <td>Caprese</td>
+                <td>6.50</td>
+              </tr>
+              <tr>
+                <td>Garlic Butter Swiss</td>
+                <td>6.00</td>
+              </tr>
+              <tr>
+                <td>Mediterannean Chicken</td>
+                <td>6.75</td>
+              </tr>
+              <tr>
+                <td>Spinach Pesto</td>
+                <td>6.25</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bagels-image-container">
+          <div class="menu-image-container">
+            <img
+              class="menu-image"
+              src="../responsive-project/img/bagels-menu-image.png"
+              alt="TODO:"
+            />
+          </div>
+        </div>
+
+        <div class="bagels-menu-image-text">Bagels</div>
+        <div class="bagels-standard-container">
+          <table>
+            <tbody>
+              <tr class="table-row-header">
+                <td>Bagels</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Everything</td>
+                <td>4.50</td>
+              </tr>
+              <tr>
+                <td>Plain</td>
+                <td>4.25</td>
+              </tr>
+              <tr>
+                <td>Poppyseed</td>
+                <td>4.50</td>
+              </tr>
+              <tr>
+                <td>Cinnamon Raisin</td>
+                <td>4.75</td>
+              </tr>
+              <tr>
+                <td>Asiago</td>
+                <td>5.00</td>
+              </tr>
+              <tr>
+                <td>Sesame</td>
+                <td>4.25</td>
+              </tr>
+              <tr>
+                <td>Pumpernickel</td>
+                <td>4.50</td>
+              </tr>
+              <tr>
+                <td>Whole Wheat</td>
+                <td>4.75</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="bagels-schmear-container">
+          <table>
+            <tbody>
+              <tr class="table-row-header">
+                <td>Cream Cheese Schmears</td>
+              </tr>
+              <tr>
+                <td>Plain</td>
+              </tr>
+              <tr>
+                <td>Garlic Butter</td>
+              </tr>
+              <tr>
+                <td>Garden Veggie</td>
+              </tr>
+              <tr>
+                <td>Sun-dried Tomato</td>
+              </tr>
+              <tr>
+                <td>Mixed Herb</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="pastries-image-container">
+          <div class="menu-image-container">
+            <img
+              class="menu-image"
+              src="../responsive-project/img/pastries-menu-image.png"
+              alt="TODO:"
+            />
+          </div>
+        </div>
+        <div class="pastries-menu-image-text">Pastries</div>
+
+        <div class="pastries-muffins-container">
+          <table>
+            <tbody>
+              <tr class="table-row-header">
+                <td>Muffins</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Lemon Poppyseed</td>
+                <td>2.50</td>
+              </tr>
+              <tr>
+                <td>Double Chocolate</td>
+                <td>2.75</td>
+              </tr>
+              <tr>
+                <td>Banana Nut</td>
+                <td>3.00</td>
+              </tr>
+              <tr>
+                <td>Apple Cinnamon</td>
+                <td>2.50</td>
+              </tr>
+              <tr>
+                <td>Blueberry</td>
+                <td>2.25</td>
+              </tr>
+              <tr>
+                <td>Pumpkin</td>
+                <td>2.50</td>
+              </tr>
+              <tr>
+                <td>Lemon Blueberry</td>
+                <td>2.50</td>
+              </tr>
+              <tr>
+                <td>Oatmeal Chocolate</td>
+                <td>2.75</td>
+              </tr>
+              <tr>
+                <td>Strawberry Crumb</td>
+                <td>3.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pastries-other-container">
+          <table>
+            <tbody>
+              <tr class="table-row-header">
+                <td>Other Baked Goods</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Fresh Nutella Croissant</td>
+                <td>3.75</td>
+              </tr>
+              <tr>
+                <td>Plain Croissant</td>
+                <td>3.50</td>
+              </tr>
+              <tr>
+                <td>Chocolate Chip Brownie</td>
+                <td>2.00</td>
+              </tr>
+              <tr>
+                <td>Brownie</td>
+                <td>3.00</td>
+              </tr>
+              <tr>
+                <td>Cinnamon Roll</td>
+                <td>4.25</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="locations-section" id="locations">
+      <h1>Locations</h1>
+      <div class="locations-flexbox-container">
+        <div>
+          <h4>Charlie's at Design North</h4>
+          <p>810 S Forest Mall</p>
+          <p>Tempe, AZ 85281</p>
+          <br />
+          <p>(480) 727-3463</p>
+          <div class="locations-map-button">Google Maps</div>
+
+          <table>
+            <tbody>
+              <tr>
+                <td>Mon-Thurs</td>
+                <td>7am-7pm</td>
+              </tr>
+              <tr>
+                <td>Fri</td>
+                <td>7am-5pm</td>
+              </tr>
+              <tr>
+                <td>Sat</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Sun</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h4>Charlie's at Hayden Library</h4>
+          <p>300 E Orange St.</p>
+          <p>Tempe, AZ 85281</p>
+          <br />
+          <p>(480) 628-4490</p>
+          <div class="locations-map-button">Google Maps</div>
+
+          <table>
+            <tbody>
+              <tr>
+                <td>Mon-Thurs</td>
+                <td>7am-7pm</td>
+              </tr>
+              <tr>
+                <td>Fri</td>
+                <td>7am-4pm</td>
+              </tr>
+              <tr>
+                <td>Sat</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Sun</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h4>Charlie's at Biodesign Building B</h4>
+          <p>727 E Tyier St.</p>
+          <p>Tempe, AZ 85281</p>
+          <br />
+          <p>(480) 591-8631</p>
+          <div class="locations-map-button">Google Maps</div>
+
+          <table align="left">
+            <tbody>
+              <tr>
+                <td>Mon-Thurs</td>
+                <td>7am-6pm</td>
+              </tr>
+              <tr>
+                <td>Fri</td>
+                <td>7am-3pm</td>
+              </tr>
+              <tr>
+                <td>Sat</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Sun</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="about-section" id="about">
+      <h1>About</h1>
+      <p>
+        Charlie's Café, one of Sun Devil Dining’s local restaurant partners,
+        brings the taste of Europe to ASU! Proudly serving Lavazza Italian
+        espresso and featuring fresh European sandwiches and baked goods. Come
+        experience the difference! With three locations on campus, there is
+        always a Charlie's Café near!
+      </p>
+    </section>
+    <section class="follow-us-section" id="follow-us">
+      <h1>Follow Us</h1>
+      <p>
+lorem ipsum si dolor sit amet
+      </p>
+    </section>
   </body>
 </html>
